@@ -1,0 +1,9 @@
+# Books are not published: only the scripts and the per-book settings.
+*.pdf
+*.djvu
+*.epub
+
+# Pipeline output (contains the book's extracted text)
+.cache/
+
+node_modules/

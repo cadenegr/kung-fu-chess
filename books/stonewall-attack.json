@@ -1,0 +1,13 @@
+{
+  "_about": "Soltis, The Stonewall Attack (Chess Digest 1993). Scanned DjVu → PDF with a hidden OCR text layer. Only the values that differ from scripts/pipeline/lib/settings.mjs are here.",
+  "layout": {
+    "minX": 110,
+    "maxLen": 28,
+    "rightGap": [75, 120]
+  },
+  "headers": {
+    "page": { "source": "Game Section|Stonewall Attack|Stonewall: Chapter|^Chapter \\w+:", "flags": "i" },
+    "line": { "source": "^(CHAPTER|SECTION|SEC'|VARIATION|BLACK PLAYS|\\(\\d\\))", "flags": "i" },
+    "game": { "source": "\\b1[89]\\d\\d\\b|^[A-Z][A-Z.\\s·•']*\\s*[-·•]\\s*[A-Z]|^\\S+-\\S+$|White: .* Black:", "flags": "" }
+  }
+}
